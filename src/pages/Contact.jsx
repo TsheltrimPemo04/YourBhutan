@@ -64,7 +64,7 @@ const Contact = ({ chatbotVisible }) => {
                       required
                     />
                     <textarea
-                      className="form-input rounded-md border border-black w-full bg-gray-200 text-black px-3 py-2"
+                      className="form-input rounded-md border border-black w-full text-black px-3 py-2"
                       id="message"
                       name="message"
                       placeholder="Message"
@@ -74,7 +74,7 @@ const Contact = ({ chatbotVisible }) => {
                   </div>
 
                   <button
-                    className="mt-4 w-full bg-black px-4 py-3 rounded-md text-white text-center hover:bg-black/80"
+                    className="mt-4 w-full bg-[#FF6600] px-4 py-3 rounded-md text-white text-center"
                     type="submit"
                   >
                     Send

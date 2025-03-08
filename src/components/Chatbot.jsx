@@ -143,11 +143,13 @@ const Chatbot = ({ onSearch, chatbotVisible }) => {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="fixed flex justify-between w-full items-center backdrop-blur-md shadow-[0_35px_60px_-10px_rgba(0,0,0,0.3)] px-2">
-        <div className="w-[4rem] rounded-full overflow-hidden ml-4 mt-1 pb-3">
-          <img src={logo} alt="logo" className="w-full" />
+        <div className="w-[3rem] ml-4 mt-1 p-2">
+          <img src="/AI-logo.svg" alt="logo" className="w-full" />
         </div>
         <div className="flex">
-          <h1 className="font-semibold text-[1.3rem]">DrukTrip AI</h1>
+        <h1 className="tracking-tight text-[1.8rem] font-semibold">
+            <span className="text-[#6E6E6E]">Your</span>Bhutan
+            </h1>
         </div>
         <div className="flex gap-2 justify-end items-center">
           <button
@@ -203,7 +205,7 @@ const Chatbot = ({ onSearch, chatbotVisible }) => {
       >
         <div className={`self-end text-left mb-[1.6rem] mt-[15%]`}>
           <div className="bg-black/[30%] text-white rounded-lg py-3 pr-6 px-4 inline-block max-w-[85%] break-words">
-            Welcome to DrukTrips, I am your helpful AI assistant. <br /> How can
+            Welcome to YourBhutan, I am your helpful AI assistant. <br /> How can
             I help you today?
           </div>
         </div>
